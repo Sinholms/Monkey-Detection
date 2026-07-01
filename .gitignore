@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model checkpoints (large files, regeneratable)
+*.pth
+*.pt
+*.onnx
+
+# Dataset (large FER2013 CSV ~300MB)
+data/
+
+# Generated outputs from training
+training_curves.png
+confusion_matrix.png
+confusion_matrix_test.png
+classification_report_*.txt
+metrics.csv
+training_config.json
+training_emotion.log
+
+# Debug output from inference
+debug_frames/
+
+# OpenCode agent runtime metadata
+.omo/
+
+# Kaggle credentials
+.kaggle/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
