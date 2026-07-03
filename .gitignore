@@ -17,6 +17,7 @@ env/
 *.pth
 *.pt
 *.onnx
+*.task
 
 # Dataset (large FER2013 CSV ~300MB)
 data/
@@ -35,6 +36,7 @@ debug_frames/
 
 # OpenCode agent runtime metadata
 .omo/
+.codegraph/
 
 # Kaggle credentials
 .kaggle/
